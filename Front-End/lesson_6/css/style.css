@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 15px;
+}
+h2{
+    text-align: center;
+}
+
+.inline_blocks p {
+ border: 1px solid red;
+ display: inline-block;
+ vertical-align: middle;
+ font-size: 16px;
+}
+
+.inline_blocks{
+    text-align: center;
+    font-size: 0;
+}
+.inline_blocks p:first-child(1){
+    width: 100px;
+    height: 100px;
+   
+}
+.inline_blocks p:nth-child(2){
+    width: 100px;
+    height: 70px;
+}
+.inline_blocks p:nth-child(3){
+    width: 60px;
+    height: 100px;
+}
+.inline_blocks p:nth-child(4){
+    width: 100px;
+    height: 60px;
+}
+.inline_blocks p:last-child(5){
+    width: 60px;
+    height: 80px;
+}
+
+.box{
+    margin: 2opx o;
+}
+
+/*======================*/
+
+.flex_blocks p {
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+  }
+  .flex_blocks p:first-child {
+    width: 90px;
+    height: 100px;
+    background-color: aqua;
+  }
+  .flex_blocks p:nth-child(2) {
+    width: 100px;
+    height: 70px;
+    background-color: blueviolet;
+  }
+  .flex_blocks p:nth-child(3) {
+    width: 60px;
+    height: 100px;
+    background-color: brown;
+  }
+  .flex_blocks p:nth-child(4) {
+    width: 110px;
+    height: 60px;
+    background-color: darkcyan;
+  }
+  .flex_blocks p:last-child {
+    width: 70px;
+    height: 80px;
+    background-color: coral;
+  }
+  .flex_blocks {
+    border: 1px solid red;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+  }
+   
+  .flex_blocks div {
+    display: flex;
+  }
+  h3 {
+    text-align: center;
+  }
+  .flex_start {
+    justify-content: flex-start;
+  }
+  .flex_end {
+    justify-content: flex-end;
+  }
+  .center {
+    justify-content: center;
+  }
+  .space_between {
+    justify-content: space-between;
+  }
+  .space_around {
+    justify-content: space-around;
+  }
+  .space_evenly {
+    justify-content: space-evenly;
+  }
+
+/*===========================*/
+/*  основная ось = x (по горизонтали) row  justify-content отвечает за позицианировние по горизонтали  align-items отвечает за позицианировние по вертикали  основная ось = y (по вертикали) column  justify-content отвечает за позицианировние по вертикали  align-items отвечает
+ за позицианировние по горизонтали*/
+.align_item {
+    border: 1px solid black;
+    display: flex;
+    /*flex-direction: column;*/
+  flex-direction: row-reverse;
+    height: 90vh;
+/*align-items: center;*/
+/*justify-content: center;*/
+/*align-items: flex-start;*/
+flex-wrap: wrap;
+}
+
+    .align_item p {
+    text-align: center;
+     border: 1 solid green;
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}

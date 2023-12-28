@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#form_container .first_name_block,
+#form_container .last_name_block,
+#form_container .msg_block{
+    display: flex;
+    flex-direction: column;
+}
+
+#form_container .info_block{
+    display: flex;
+}
+
+
+.main{
+    background-image: url(../Media/Rectangle.png);
+padding: 120px 0;
+}
+#form_container {
+    margin: 0 auto;
+    width: 540px;
+}
+#form_container form>div:not(:last-child) {
+    margin-bottom:40px ;
+}
+#form_container label {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+   
+  #form_container input::placeholder,
+  #form_container textarea::placeholder {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #BDBDBD;
+    font-size: 21px;
+  }
+  #form_container .btn_block button {
+    background-color: #005FA3;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+   
+  #form_container .btn_block {
+    display: flex;
+    justify-content: flex-end;
+  }
+   
+  #form_container textarea {
+    background-color: transparent;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    height: 120px;
+  }
+  #form_container input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 7px;
+    padding-top: 7px;
+  }
+   
+  #form_container .info_block div:first-child {
+    margin-right: 30px;
+  }
+   
+  #form_container .info_block div {
+    width: 50%;
+  }
+   
+  #form_container label {
+    margin-bottom: 10px;
+  }
+  

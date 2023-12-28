@@ -1,0 +1,18 @@
+/*
+selector {
+    styel name : value;
+}
+*/
+img { 
+width: 300px;
+height: 450px;
+
+}
+p {
+    width: 50px; 
+    display: inline;
+}
+a {
+    width: 500px;
+    display: block;
+}

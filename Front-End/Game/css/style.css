@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(2,2,43);
+}
+#area{
+    background: #fff;
+    width: 400px;
+    aspect-ratio: 1;
+    margin-top: 50px;
+    overflow: hidden;
+
+}
+#object {
+    background: orange;
+    width: 60px;
+    aspect-ratio: 1;
+    transform: translateY(-100%);
+}
+
+#object.moving {
+    animation-name: movement;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;  
+    animation-timing-function: linear;
+}
+/* animatia dvijenia obiecta (opredelenie) */
+@keyframes movement{
+    to {
+        transform:  translateY(400px);
+    }
+}

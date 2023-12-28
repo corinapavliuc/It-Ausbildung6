@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 10px;
+}
+p{
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
+.p_1{
+width: 750px;
+}
+.p_2{
+    width: 100%;
+}
+.p_3{
+    width: 50em;
+}
+ul {
+    padding-left: 40px;
+}
+
+upper_ul {
+    font-size: 20px;
+}
+html{
+    font-size: 20px;
+}
+li{ 
+   /* font-size: 0.5rem;*/
+}
+.p_4{
+   /* width: 100vw;
+height: 100vh;*/
+ /*width: 50vmin; width: vmax;*/
+
+}
+.p_5{
+    min-width: 400px;
+    max-width: 1280px;
+}
+
+.task_block{
+    width: 50%;
+    height: 400px;
+
+    padding: 30px 5%;
+    margin: 40px 20%;
+    border: 5px solid black;
+  /*  box-sizing: border-box;*/
+  /*background-color: red;*/
+ /*background-color: #ff007b;*/
+ /*background-color: rgb(0,255,0);*/
+background-color:rgba( 0, 0, 0, 0.5);
+}   
+
+h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.box{
+    width: 80%;
+    max-width: 1200px;
+    min-height: 400px;
+    margin: 20px auto;
+ border: 1px solid black;
+padding: 20px;
+}
+.box img{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+#second_box img{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+.box a {
+    text-decoration: none;
+}
+/* 
+1: id name
+#name
+2: class name
+.name
+3: tag name
+name
+
+
+*/

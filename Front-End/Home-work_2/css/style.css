@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table1{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+/* 
+    tag name - 1
+    class name - 10
+    id name - 100
+*/
+#p1{
+    color: yellow;
+}
+
+.redcolor{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+ /* border: 5px dotted blueviolet; */
+
+    /* border-width: ;
+    border-style: ;
+    border-color: ; */
+
+    /* border-top: 5px solid black;
+    border-right: 2px dotted blueviolet;
+    border-left: 2px dotted blueviolet;
+    border-bottom: 5px solid blue; */
+
+    .block1 {
+        width: 200px;
+        height: 100px;
+        padding: 50px;
+        border: 5px solid blue;
+
+    }
+
+    .block2 {
+        width: 200px;
+        height: 100px;
+        padding: 50px;
+        border: 5px solid red;
+    }
+
+    h1 {
+        text-align: center;
+       color: blue;
+    
+    }
+.first{
+    background-color: aqua;
+    margin: 25px ;
+    padding: 15px;
+}
+.first img{
+    width:300px ;
+    
+}
+    
+.first a {
+color: red;
+}
+.first p{
+    color: brown;
+}
+
+.second{
+    background-color: green;
+    margin: 25px ;
+    padding: 15px;
+}
+.second img{
+    width:300px ;
+    
+}
+    
+.second a {
+color: red;
+}
+.second p{
+    color: white;
+}
+
+.third{
+    background-color: violet;
+    margin: 25px ;
+    padding: 15px;
+}
+.third img{
+    width:300px ;
+   
+}
+    
+.third a {
+color: rgb(223, 70, 95);
+}
+.third p{
+    color: rgb(193, 93, 146);
+}
+.four{
+    text-align: center;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 40px;
+}
+.four img{
+    width:50px ;
+
+}
+table{
+    border-collapse: collapse ;
+    margin: 30px solid black;
+}
+
+table, tr,td,th{
+    border: 1px solid black;
+}

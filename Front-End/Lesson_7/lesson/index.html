@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!---method= get |post
+    first_name = John &
+    last_name = Mama
+    -->
+    <form method="get">
+        <label for="first_name_input">First name</label>
+        <input type="text" id="first_name_input" name="first_name" placeholder="First name">
+     
+        <label for="last_name_input">Last name</label>
+        <input type="text" id="last_name_input" name="last_name" placeholder="Last name">
+     
+        <label for="about_me_textarea">About me</label>
+        <textarea name="about_user" id="about_me_textarea" cols="30" rows="10" placeholder="About me"></textarea>
+        <select name ="profession" >
+        <option disabled selected>Choose your profession</option>
+        <option value="developer">Developer</option>
+        <option value="manager">Manager</option>
+        <option value="designer">Designer</option>
+
+       </select>
+       
+     <label for="remember_no_checkbox">
+        Remember me
+     <input type="remember_no_checkbox" name ="remember_me" type ="checkbox">
+    </label>
+
+    <div>
+        <label for="malo_radio">Male</label>
+        <input type ="radio" id="male_radio" name="gender">
+        <label for="female_radio">Female</label>
+        <input type="radio" id="female_radio">
+    </div>
+
+       <button>Send</button>
+      </form>
+</body>
+</html>
